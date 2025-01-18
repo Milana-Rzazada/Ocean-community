@@ -1,0 +1,539 @@
+.nutruting {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 30px;
+    margin: 30px;
+
+    .nutrutingimg {
+        img {
+            max-width: 100%;
+        }
+
+    }
+
+    .nutrutingtext {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        max-width: 100%;
+        width: 480px;
+
+        .understanding {
+            font-size: 30px;
+            font-weight: 200;
+            color: #12103C;
+        }
+
+        h3 {
+            font-weight: 700;
+            color: #12103C;
+            font-size: 50px;
+        }
+
+        .whether {
+            font-size: 22px;
+            color: #12103C;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .nutruting {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/logos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+
+    .partners {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            padding: 30px;
+
+
+            h1 {
+                font-size: 60px;
+                color: #12103C;
+                font-weight: 700;
+
+            }
+
+            p {
+                font-size: 22px;
+                color: #12103C;
+                text-align: center;
+
+            }
+        }
+
+        .partner-logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            font-size: 30px;
+
+            .sponsors {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+
+            .allances {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+
+                .all-img {
+                    display: flex;
+                    gap: 50px;
+                }
+            }
+
+            .partner {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+
+            }
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .logos {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+        .partners {
+            display: flex;
+            flex-direction: column;
+
+            .partner-logo {
+                display: flex;
+                flex-direction: column;
+
+                .allances {
+                    display: flex;
+                    flex-direction: column;
+
+                    .all-img {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+    padding: 20px;
+    .our-projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+
+        .text-header{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            h1{
+                font-family: Averia Serif Libre, sans-serif;
+                font-size: 40px;
+                font-weight: 700;
+            }
+            p{
+                font-family: Libre Franklin, sans-serif;
+                font-size: 25px;
+            }
+
+        }
+    
+
+   .project-img{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    .card {
+        position: relative;
+        width: 315px;
+        height: 550px;
+        border-radius: 30px;
+        overflow: hidden;
+        
+        .background {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+          }
+          .overlay {
+            position: absolute;
+            top: 70px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: start;
+            background: linear-gradient(to bottom, transparent, #383553);
+        padding: 20px;
+            gap: 50px;
+          
+          h2 {
+            font-size: 25px;
+           font-family: Libre Franklin, sans-serif;
+          
+        
+          }
+          
+          p {
+            font-size: 18px;
+            font-family: Libre Franklin, sans-serif;
+          }
+        }
+        
+      }
+      
+     
+      
+      
+      
+    
+   } 
+
+  
+}}
+
+@media screen and (max-width: 992px) {
+
+    .project-img{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    padding: 60px 0;
+    .impact{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h1{
+            font-family: Averia Serif Libre, sans-serif;
+            font-weight: 700;
+            font-size: 40PX;
+            color: #000000;
+        }
+        P{
+            font-size: 20px;
+            font-family: Libre Franklin, sans serif;
+            
+        }
+    }
+    .map-img{
+        img{
+            max-width: 100%;
+            height: 776px;
+            width: 1320px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .map{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.initiatives{
+    padding: 50px;
+    
+   
+    .our-initiatives{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+       
+
+        .text-initiatives{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 100%;
+            width: 799px;
+            height: auto;
+
+            h1{
+                font-family: Averia Serif Libre, sans-serif;
+                font-weight: 700;
+                font-size: 40px;
+
+            }
+            p{
+                font-size: 22px;
+                font-family: Libre Franklin,  sans-serif;
+               
+            }
+
+        }
+
+        .kids{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: start;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+           
+            .choose{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                max-width: 100%;
+                width: 720px;
+                height: auto;
+                
+                
+                a{
+                    list-style: none;
+                    h2{
+font-family: Libre Franklin, sans-serif;
+font-size: 30px;
+color: #555992;
+                    }
+                }
+                .RE{
+                    display: flex;
+                    gap: 10px;
+                    justify-content: start;
+                    align-items: center;
+                    text-align: start;
+                    max-width: 100%;
+                    padding: 20px;
+                width: 720px;
+                height: 170px;
+                background-color: #f5f3f8;
+                    .box{
+                        border-radius: 50%;
+                        background-color: #00A69C;
+                        width: 17px;
+                        height: 17px;
+                        
+                    }
+                    a{
+                        h2{
+                            color: black;
+                        }
+                    }
+                }
+                .volunteer, .collaboration, .course{
+                    max-width: 100%;
+                width: 720px;
+                height: 170px;
+                background-color: #EAE7EF;
+                display: flex;
+                
+                padding: 20px;
+                align-items: center;
+                }
+            }
+            .kids-img{
+                img{
+                    max-width: 100%;
+                    width: 844px;
+                    height: 688px;
+                }
+                }
+              
+        
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .kids{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.fund-cause{
+   .cause{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 50px;
+
+h1{
+    font-size: 40px;
+    font-family: Averia Serif Libre, sans-serif;
+    font-weight: 700;
+
+}
+
+p{
+    font-size: 22px;
+    font-family: Libre Franklin, sans-serif;
+    max-width: 100%;
+    width: 799px;
+}
+.fund-img{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    .img-text{
+        position: relative;
+        width: 315px;
+        height: 550px;
+        border-radius: 30px;
+        overflow: hidden;
+        .background {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+    }
+
+    .text{
+        position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            color: white;
+            text-align: start;
+            background: linear-gradient(to bottom, transparent, #7973ad);
+        padding: 20px;
+
+        h3{
+            font-family:    Averie Serif, sans-serif;
+            font-size: 22px;
+
+        }
+    }
+
+}
+}
+
+}
+}
+
+
+@media screen and (max-width: 992px) {
+    .fund-img{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.volunteer-story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+
+    gap: 30px;
+    .story{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        max-width: 100%;
+        width: 799px;
+        height: auto;
+
+        h1{
+            font-family: Averia Serif Libre, sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+
+        }
+        p{
+            font-size: 22px;
+            font-family: Libre Franklin,  sans-serif;
+           
+        }
+        .video{
+            video{
+                max-width: 100%;
+                width: 1440px;
+                height: 552px;
+            }
+        }
+    }
+}

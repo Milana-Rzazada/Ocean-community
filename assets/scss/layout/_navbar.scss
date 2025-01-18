@@ -1,16 +1,163 @@
-header{
+header {
     background-image: url(../images/rectangle.png);
     background-size: cover;
     max-width: 100%;
-    height: 100vh;
-    
-    nav{
-        .container-fluid{
-            #navbarSupportedContent{
+    height: 100%;
+
+    @mixin content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @mixin text {
+        display: flex;
+
+    }
+
+    @mixin cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+
+        color: #fff;
+
+        .navbar-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            height: 60px;
+            max-width: 1440px;
+            width: 100%;
+            margin: 0 auto;
+
+            .icon {
+                display: none;
+            }
+
+            .navbar-menu {
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
+                gap: 20px;
+
+                a {
+                    color: #fff;
+                    font-size: 18px;
+                    margin-left: 80px;
+                }
+
             }
+
+            @media screen and (max-width: 992px) {
+                .navbar-menu {
+                    display: none;
+                }
+
+                .icon {
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                }
+
+
+
+                .navbar-menu.active {
+                    @include cont;
+                    flex-direction: column;
+
+                    position: absolute;
+                    top: 60px;
+                    left: 0;
+                    width: 100%;
+                    height: calc(100vh - 60px);
+
+                    z-index: 999;
+                    opacity: 0.95;
+
+                    a {
+                        margin-left: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            @media screen and (max-width: 768px) {
+                .navbar-menu {
+                    display: none;
+                }
+
+                .icon {
+                    display: block;
+                }
+
+
+
+                .navbar-menu.active {
+                    @include cont;
+                    flex-direction: column;
+
+                    position: absolute;
+                    top: 60px;
+                    left: 0;
+                    width: 100%;
+                    height: calc(100vh - 60px);
+                    background-color: #333;
+                    z-index: 999;
+                    opacity: 0.95;
+
+                    a {
+                        margin-left: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    hr {
+        color: #FAFAFA;
+
+        max-width: 100%;
+
+    }
+
+    .mainphrase {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 15%;
+        gap: 30px;
+        color: #fff;
+
+        h3 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 24px;
         }
 
     }
+
+    .groupimg {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        
+    
+
+    }
+    
 }
