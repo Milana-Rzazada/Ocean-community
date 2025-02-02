@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,11 +20,9 @@ li {
   padding: 30px;
   margin: 30px;
 }
-
 .nutruting .nutrutingimg img {
   max-width: 100%;
 }
-
 .nutruting .nutrutingtext {
   display: flex;
   flex-direction: column;
@@ -31,19 +30,16 @@ li {
   max-width: 100%;
   width: 480px;
 }
-
 .nutruting .nutrutingtext .understanding {
   font-size: 30px;
   font-weight: 200;
   color: #12103C;
 }
-
 .nutruting .nutrutingtext h3 {
   font-weight: 700;
   color: #12103C;
   font-size: 50px;
 }
-
 .nutruting .nutrutingtext .whether {
   font-size: 22px;
   color: #12103C;
@@ -55,31 +51,24 @@ li {
     flex-direction: column;
   }
 }
-
 .logos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../images/logos.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 50px;
   max-width: 100%;
   width: 100%;
- 
+  height: 100vh;
 }
-
 .logos .partners {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-  background-image: url(../images/logos.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  width: 100%;
- height: 700px;
+  gap: 80px;
 }
-
 .logos .partners .text {
   display: flex;
   flex-direction: column;
@@ -88,48 +77,37 @@ li {
   gap: 40px;
   padding: 30px;
 }
-
 .logos .partners .text h1 {
   font-size: 60px;
   color: #12103C;
   font-weight: 700;
 }
-
 .logos .partners .text p {
   font-size: 22px;
   color: #12103C;
   text-align: center;
 }
-
 .logos .partners .partner-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 80px;
   font-size: 30px;
-  max-width: 100%;
-  width: 100%;
 }
-
 .logos .partners .partner-logo .sponsors {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-
 .logos .partners .partner-logo .allances {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-
 .logos .partners .partner-logo .allances .all-img {
   display: flex;
-  gap: 10px;
-  max-width: 100%;
-  width: 100%;
+  gap: 50px;
 }
-
 .logos .partners .partner-logo .partner {
   display: flex;
   flex-direction: column;
@@ -140,56 +118,25 @@ li {
   .logos {
     display: flex;
     flex-direction: column;
-  justify-content: center;
-align-items: center;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    text-align: center;
+    padding: 0;
   }
-  .logos .partners .text h1{
-    font-size: 30px;
-  }
-
-  .logos .partners .text p{
-    font-size: 18px;
-  }
-
   .logos .partners {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    width: 100%;
-    background-image: url(../images/partners.png) !important;
-    background-size: cover;
-    height: auto;
   }
-
   .logos .partners .partner-logo {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    width: 320px;
   }
-
   .logos .partners .partner-logo .allances {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    width: 320px;
   }
-
-.logos .partners .partner-logo .allances .all-img img{
-  display: flex;
-  max-width: 100%;
-  width: 136px;
+  .logos .partners .partner-logo .allances .all-img {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-}
-
-
 .projects {
   display: flex;
   flex-direction: column;
@@ -198,7 +145,6 @@ align-items: center;
   max-width: 100%;
   padding: 20px;
 }
-
 .projects .our-projects {
   display: flex;
   flex-direction: column;
@@ -207,30 +153,25 @@ align-items: center;
   text-align: center;
   gap: 50px;
 }
-
 .projects .our-projects .text-header {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 .projects .our-projects .text-header h1 {
   font-family: Averia Serif Libre, sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
-
 .projects .our-projects .text-header p {
   font-family: Libre Franklin, sans-serif;
   font-size: 25px;
 }
-
 .projects .our-projects .project-img {
   display: flex;
   justify-content: center;
   gap: 50px;
 }
-
 .projects .our-projects .project-img .card {
   position: relative;
   width: 315px;
@@ -238,13 +179,12 @@ align-items: center;
   border-radius: 30px;
   overflow: hidden;
 }
-
 .projects .our-projects .project-img .card .background {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-
 .projects .our-projects .project-img .card .overlay {
   position: absolute;
   top: 70px;
@@ -261,12 +201,10 @@ align-items: center;
   padding: 20px;
   gap: 50px;
 }
-
 .projects .our-projects .project-img .card .overlay h2 {
   font-size: 25px;
   font-family: Libre Franklin, sans-serif;
 }
-
 .projects .our-projects .project-img .card .overlay p {
   font-size: 18px;
   font-family: Libre Franklin, sans-serif;
@@ -278,7 +216,6 @@ align-items: center;
     flex-direction: column;
   }
 }
-
 .map {
   display: flex;
   flex-direction: column;
@@ -288,25 +225,21 @@ align-items: center;
   gap: 60px;
   padding: 60px 0;
 }
-
 .map .impact {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
 .map .impact h1 {
   font-family: Averia Serif Libre, sans-serif;
   font-weight: 700;
   font-size: 40PX;
   color: #000000;
 }
-
 .map .impact P {
   font-size: 20px;
   font-family: Libre Franklin, sans serif;
 }
-
 .map .map-img img {
   max-width: 100%;
   height: 776px;
@@ -319,11 +252,9 @@ align-items: center;
     flex-direction: column;
   }
 }
-
 .initiatives {
   padding: 50px;
 }
-
 .initiatives .our-initiatives {
   display: flex;
   flex-direction: column;
@@ -332,7 +263,6 @@ align-items: center;
   text-align: center;
   gap: 30px;
 }
-
 .initiatives .our-initiatives .text-initiatives {
   display: flex;
   flex-direction: column;
@@ -341,18 +271,15 @@ align-items: center;
   width: 799px;
   height: auto;
 }
-
 .initiatives .our-initiatives .text-initiatives h1 {
   font-family: Averia Serif Libre, sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
-
 .initiatives .our-initiatives .text-initiatives p {
   font-size: 22px;
   font-family: Libre Franklin, sans-serif;
 }
-
 .initiatives .our-initiatives .kids {
   display: flex;
   justify-content: center;
@@ -362,7 +289,6 @@ align-items: center;
   width: 100%;
   height: auto;
 }
-
 .initiatives .our-initiatives .kids .choose {
   display: flex;
   flex-direction: column;
@@ -372,17 +298,14 @@ align-items: center;
   width: 720px;
   height: auto;
 }
-
 .initiatives .our-initiatives .kids .choose a {
   list-style: none;
 }
-
 .initiatives .our-initiatives .kids .choose a h2 {
   font-family: Libre Franklin, sans-serif;
   font-size: 30px;
   color: #555992;
 }
-
 .initiatives .our-initiatives .kids .choose .RE {
   display: flex;
   gap: 10px;
@@ -395,21 +318,16 @@ align-items: center;
   height: 170px;
   background-color: #f5f3f8;
 }
-
 .initiatives .our-initiatives .kids .choose .RE .box {
   border-radius: 50%;
   background-color: #00A69C;
   width: 17px;
   height: 17px;
 }
-
 .initiatives .our-initiatives .kids .choose .RE a h2 {
   color: black;
 }
-
-.initiatives .our-initiatives .kids .choose .volunteer,
-.initiatives .our-initiatives .kids .choose .collaboration,
-.initiatives .our-initiatives .kids .choose .course {
+.initiatives .our-initiatives .kids .choose .volunteer, .initiatives .our-initiatives .kids .choose .collaboration, .initiatives .our-initiatives .kids .choose .course {
   max-width: 100%;
   width: 720px;
   height: 170px;
@@ -418,7 +336,6 @@ align-items: center;
   padding: 20px;
   align-items: center;
 }
-
 .initiatives .our-initiatives .kids .kids-img img {
   max-width: 100%;
   width: 844px;
@@ -431,7 +348,6 @@ align-items: center;
     flex-direction: column;
   }
 }
-
 .fund-cause .cause {
   display: flex;
   flex-direction: column;
@@ -440,26 +356,22 @@ align-items: center;
   text-align: center;
   gap: 50px;
 }
-
 .fund-cause .cause h1 {
   font-size: 40px;
   font-family: Averia Serif Libre, sans-serif;
   font-weight: 700;
 }
-
 .fund-cause .cause p {
   font-size: 22px;
   font-family: Libre Franklin, sans-serif;
   max-width: 100%;
   width: 799px;
 }
-
 .fund-cause .cause .fund-img {
   display: flex;
   justify-content: center;
   gap: 50px;
 }
-
 .fund-cause .cause .fund-img .img-text {
   position: relative;
   width: 315px;
@@ -467,13 +379,12 @@ align-items: center;
   border-radius: 30px;
   overflow: hidden;
 }
-
 .fund-cause .cause .fund-img .img-text .background {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-
 .fund-cause .cause .fund-img .img-text .text {
   position: absolute;
   top: 0;
@@ -489,7 +400,6 @@ align-items: center;
   background: linear-gradient(to bottom, transparent, #7973ad);
   padding: 20px;
 }
-
 .fund-cause .cause .fund-img .img-text .text h3 {
   font-family: Averie Serif, sans-serif;
   font-size: 22px;
@@ -501,7 +411,6 @@ align-items: center;
     flex-direction: column;
   }
 }
-
 .volunteer-story {
   display: flex;
   flex-direction: column;
@@ -510,7 +419,6 @@ align-items: center;
   padding: 60px;
   gap: 30px;
 }
-
 .volunteer-story .story {
   display: flex;
   flex-direction: column;
@@ -521,31 +429,21 @@ align-items: center;
   width: 799px;
   height: auto;
 }
-
 .volunteer-story .story h1 {
   font-family: Averia Serif Libre, sans-serif;
   font-weight: 700;
   font-size: 40px;
 }
-
 .volunteer-story .story p {
   font-size: 22px;
   font-family: Libre Franklin, sans-serif;
 }
-
 .volunteer-story .story .video video {
   max-width: 100%;
   width: 1440px;
   height: 552px;
 }
 
-.ripple_effect{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #D1ECF6;
- padding: 30px;
-}
 .ripple_effect .ripple {
   display: flex;
   justify-content: center;
@@ -553,261 +451,20 @@ align-items: center;
   gap: 50px;
 }
 
-.ripple_effect .ripple .ripple_text{
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  max-width: 100%;
-  width: 363px;
-
-}
-
-.ripple_effect .ripple .ripple_text  p{
-  font-size: 22px;
-  font-family: Libre Franklin, sans-serif;
-  font-weight: 400;
-  
-}
-
-.ripple_effect .ripple .ripple_text .difference h1{
-  font-size: 48px;
-  font-family: Averia Serif Libre, sans-serif;
-  font-weight: 700;
-}
-
-.ripple_effect .ripple .ripple_img{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  
-}
-
-.ripple_effect .ripple .ripple_img img{
-  max-width: 100%;
-  width: 582px;
-}
-.ripple_effect .ripple .explore{
-  border-radius: 100px;
-    width: 200px;
-    background-color: #000033;
-    font-weight: bold;
-    font-size: 18px;
-    border-color: #000033;
-    height: 50px;
-    color: white;
-}
-
-@media screen and (max-width: 992px) {
-  .ripple_effect .ripple {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    width: 398px;
-
-  }
-
-}
- 
-.ocean{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
-  padding: 40px;
-  
-}
-.ocean .ocean_insider{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
-
-}
-
-
-.ocean .ocean_insider h1{
-font-size: 40px;
-font-family: Averia Serif Libre, sans-serif;
-font-weight: 700;
-}
-
-.ocean .ocean_insider p{
-  font-size: 22px;
-  font-family: Libre Franklin, sans-serif;
-  font-weight: 400;
-  color: #12103C;
-}
-
-.ocean .ocean_insider .contact{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
-  padding: 50px;
-  max-width: 100%;
-  width: 1316px;
-}
-
-.ocean .ocean_insider .contact .contact_text{
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
- 
-}
-
-.ocean .ocean_insider .contact .contact_text p{
-  font-size: 22px;
-  font-weight: 400;
-  font-family: Libre Franklin, sans-serif;
-  color: #12103C;
-}
-
-.ocean .ocean_insider .contact .contact_text label{
-  font-size: 12px;
-  color: #979797;
-  font-family: Libre FRanklin, sans-serif;
-}
-
-.ocean .ocean_insider .contact .contact_text .email{
-  max-width: 100%;
-  width: auto;
-  border: none;
-  font-size: 22px;
-}
-
-
-
-.ocean .ocean_insider .contact .contact_text .buttons{
-  display: flex;
-  gap: 20px;
-}
-
-.ocean .ocean_insider .contact .contact_text .information{
-  border-radius: 100px;
-  width: 200px;
-  background-color: aquamarine;
-  font-weight: bold;
-  font-size: 15px;
-  border-color: aquamarine;
-  height: 50px;
-}
-
-.ocean .ocean_insider .contact .contact_text .contactus{
-  border-radius: 100px;
-    width: 150px;
-    background-color: #000033;
-    font-weight: bold;
-    font-size: 18px;
-    border-color: #000033;
-    height: 50px;
-    color: white;
-  
-}
-
-@media screen and (max-width: 992px){
-
-  
-  .ocean .ocean_insider .contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    width: 350px;
-    
-  }
-  .ocean .ocean_insider .contact img{
-    max-width: 100%;
-    width: 350px;
-  }
-}
-
-footer .footer_list{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  max-width: 100%;
-  width: 1448px;
-  height: 400px;
-}
-
-footer .footer_list .lists{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-footer .footer_list .lists .who_we_are, .what_we_do, .ways_to_help, .follow{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 100%;
-  width: 220px;
-  height: 100px;
- font-family: Libre Franklin, sans-serif;
-}
-
-footer .footer_list .lists h3{
-  font-size: 22px;
-  font-weight: 700;
-}
-
-footer .footer_list .lists a{
-  color: #000000;
-  font-size: 15px;
-  font-weight: 400;
-}
-
-.final_text{
-  display: flex;
-  justify-content: start;
-  align-items: start;
-
-  font-size: 12px;
-  color: #838383;
-  font-family: Libre Franklin, sans-serif;
-
-}
-
-@media screen and (max-width: 992px){
-  footer .footer_list{
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-  }
-
-  footer .footer_list .lists{
-    display: flex;
-    flex-direction: column;
- 
-  }
-}
-
-
 header {
   background-image: url(../images/rectangle.png);
   background-size: cover;
   max-width: 100%;
   height: 100%;
 }
-
 header .container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
 }
-
 header nav {
   color: #fff;
 }
-
 header nav .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -818,35 +475,29 @@ header nav .navbar-container {
   width: 100%;
   margin: 0 auto;
 }
-
 header nav .navbar-container .icon {
   display: none;
 }
-
 header nav .navbar-container .navbar-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
-
 header nav .navbar-container .navbar-menu a {
   color: #fff;
   font-size: 18px;
   margin-left: 80px;
 }
-
 @media screen and (max-width: 992px) {
   header nav .navbar-container .navbar-menu {
     display: none;
   }
-
   header nav .navbar-container .icon {
     display: block;
     width: 50px;
     height: 50px;
   }
-
   header nav .navbar-container .navbar-menu.active {
     display: flex;
     justify-content: center;
@@ -860,22 +511,18 @@ header nav .navbar-container .navbar-menu a {
     z-index: 999;
     opacity: 0.95;
   }
-
   header nav .navbar-container .navbar-menu.active a {
     margin-left: 0;
     margin-bottom: 20px;
   }
 }
-
 @media screen and (max-width: 768px) {
   header nav .navbar-container .navbar-menu {
     display: none;
   }
-
   header nav .navbar-container .icon {
     display: block;
   }
-
   header nav .navbar-container .navbar-menu.active {
     display: flex;
     justify-content: center;
@@ -890,18 +537,15 @@ header nav .navbar-container .navbar-menu a {
     z-index: 999;
     opacity: 0.95;
   }
-
   header nav .navbar-container .navbar-menu.active a {
     margin-left: 0;
     margin-bottom: 20px;
   }
 }
-
 header hr {
   color: #FAFAFA;
   max-width: 100%;
 }
-
 header .mainphrase {
   display: flex;
   justify-content: center;
@@ -911,17 +555,14 @@ header .mainphrase {
   gap: 30px;
   color: #fff;
 }
-
 header .mainphrase h3 {
   font-size: 48px;
 }
-
 header .mainphrase p {
   font-size: 24px;
 }
-
 header .groupimg {
-  display: flex;
+  display: flex-end;
   justify-content: end;
   align-items: end;
 }
@@ -977,4 +618,4 @@ header .groupimg {
   font-size: 18px;
   border-color: aquamarine;
   height: 40px;
-}
+}/*# sourceMappingURL=main.css.map */

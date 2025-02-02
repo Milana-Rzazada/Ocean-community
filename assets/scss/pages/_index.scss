@@ -516,6 +516,7 @@ p{
         max-width: 100%;
         width: 799px;
         height: auto;
+        
 
         h1{
             font-family: Averia Serif Libre, sans-serif;
@@ -535,5 +536,16 @@ p{
                 height: 552px;
             }
         }
+    }
+}
+
+
+.ripple_effect{
+    .ripple{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      
     }
 }
