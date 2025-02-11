@@ -1,0 +1,68 @@
+footer .footer_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 100%;
+    width: 1448px;
+    height: 400px;
+}
+
+footer .footer_list .lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer .footer_list .lists .who_we_are,
+.what_we_do,
+.ways_to_help,
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    width: 220px;
+    height: 100px;
+    font-family: Libre Franklin, sans-serif;
+}
+
+footer .footer_list .lists h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+footer .footer_list .lists a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.final_text {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+    font-size: 12px;
+    color: #838383;
+    font-family: Libre Franklin, sans-serif;
+
+}
+
+@media screen and (max-width: 992px) {
+    footer .footer_list {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+
+    footer .footer_list .lists {
+        display: flex;
+        flex-direction: column;
+       
+
+    }
+}

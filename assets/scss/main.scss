@@ -1,7 +1,6 @@
-@import "./base/reset";
-@import "./pages/index";
-@import "./layout/navbar";
-@import "./layout/footer";
-@import "./components/button";
-@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
-
+@use "./base/reset" as *;
+@use "./components/button" as *;
+@use "./components/button" as *;
+@use "./layout/footer" as *;
+@use "./layout/navbar" as *;
+@use "./pages/index" as *;
